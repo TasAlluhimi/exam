@@ -1,0 +1,123 @@
+html{
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav bar */
+
+.nav-bar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu{
+    color: white;
+}
+
+.navbar-menu ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 30vw;
+    font-size: x-large;
+}
+
+.navbar-menu a{
+    color: white;
+    text-decoration:none;
+}
+
+/* content */
+
+.content-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 90vh;
+}
+
+.left-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 100px;
+}
+
+.left-div h1{
+    text-align: center;
+}
+
+.button{
+    background-color: rgb(35,78,237);
+    border: none;
+    color: white;
+    width: 50%;
+    height: 10vh;
+}
+
+
+.right-div{
+    display: flex;
+    position: relative;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.pink-box{
+    position: relative;
+    background-color: rgb(223,43,205);
+    border: 1px solid rgb(223,43,205);
+    height: 40vh;
+    width: 30vw;
+}
+
+.blue-box{
+    position: absolute;
+    height: 15vh;
+    width: 10vw;
+    background-color: rgb(35,78,237);
+    top:20%;
+    left: 10%;
+}
+
+.black-box{
+    position: absolute;
+    background-color: black;
+    height: 40vh;
+    width: 15vw;
+    top: 50%;
+    right: 10%;
+}
+
+.blue-box2{
+    position: absolute;
+    height: 15vh;
+    width: 10vw;
+    background-color: rgb(35,78,237);
+    top:60%;
+    left: 50%;
+}
+
+/* footer */
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 20vh;
+}
+
+.footer-con{
+    display: flex;
+    justify-content: space-around;
+    line-height: 4;
+}

@@ -1,0 +1,36 @@
+*{
+
+}
+
+/* nav */
+
+/* header */
+
+.baig{
+    background-color: rgb(229,219,219);
+    /* gap: 50px; */
+}
+
+.button{
+    background-color: rgb(35,78,237);
+    border: none;
+    color: white;
+    width: 50%;
+    height: 5vh;
+}
+
+.pink-box{
+    background-color:  rgb(223,43,205);
+    height: 20vh;
+}
+
+.blue-box{
+    background-color: rgb(35,78,237);
+    height: 10vh;
+    /* gap: 80px; */
+}
+
+.black-box{
+    background-color: black;
+    height: 20vh;
+}
